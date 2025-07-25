@@ -1,0 +1,519 @@
+
+
+
+    @media screen and (max-width: 576px) {
+    .nav-items {
+        flex-direction: column;
+    }
+
+    /* .nav-img img {
+        width: 1163px;
+        height: 38px;
+    } */
+
+
+    .first-list-item li {
+        display: none;
+    }
+
+    .nav-content {
+        margin-bottom: 28px;
+    }
+
+    /* banner responsive */
+
+
+    .banner-content {
+        flex-direction: column-reverse;
+        /* width: 100%; */
+        background-image: cover;
+        margin-bottom: 65px;
+        
+    }
+
+    .banner-heading {
+        margin-top: 28px;
+    }
+
+        
+    .banner-content .banner-head-1{
+
+        font-size: 24px;
+        font-weight: 700;
+        color: rgb(0, 0, 0);
+        margin-left: 15px;
+        
+
+    }
+
+    .banner-content .banner-head-2{
+        font-size: 24px;
+        font-weight: 700;
+        margin-left: 15px;
+        color: rgb(233, 90, 8);
+    }
+
+    .banner-content p{
+        /* width: 100%; */
+        font-size: 14px;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-right: 10px;
+        margin-top: 13px;
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+
+
+
+    /* card style responsive */
+    .card {
+        width: 100%;
+    }
+
+
+    .card .card-description .card-heading .card-head-1  {
+        font-size: 24px;
+    font-weight: 700;
+    }
+    .card .card-description .card-heading .card-head-2  {
+    font-size: 24px;
+    font-weight: 700;
+    }
+
+    .card .card-description .card-head-p {
+
+    font-size: 11px;
+    font-weight: 400;
+    margin-top: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    }
+
+    .card-description {
+        text-align: center;
+    }
+
+
+        
+    .card .card-description .card-heading{
+        text-align: center;
+    }
+
+    .card .card-description .card-heading .card-head-1 {
+        font-size: 24px;
+        font-weight: 700;
+        color: rgb(233, 90, 8);
+    }
+
+    .card .card-description .card-heading .card-head-2 {
+        font-size: 24px;
+        font-weight: 700;
+        color: rgb(0, 0, 0);
+    }
+
+    .card .card-description .card-head-p {
+        font-size: 12px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.5);
+        text-align: center;
+    }
+
+
+    .card-make .card-make-1 .card-content-1 {
+
+        margin-left: 40px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .card-make .card-make-1 .card-content-2 {
+
+        margin-left: 60px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .card-img img{
+        width: 180px;
+        height: 197px;
+    }
+
+    .card-make .card-make-1 {
+        margin-bottom: 15px;
+    }
+
+    .card-make .card-content-btn {
+        width: 170px;
+        height: 50px;
+        background-color: rgb(233, 90, 8);
+        color: rgb(255, 255, 255);
+        border: none;
+        font-size: 16px;
+        font-weight: 600;
+
+    }
+
+    .card-make{
+        margin-bottom: 50px;
+        width: 100%;
+        
+    }
+
+
+
+
+
+    .card-item {
+        grid-template-columns: repeat(2, 1fr);
+        /* grid-template-columns: 171px 171px; */
+        gap: 5px;
+        margin-left: 10px;
+        /* width: fit-content; */
+    
+
+    }
+
+
+
+    /* plant lover section responsive */
+    .plant-lover-section {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .trusted-img img{
+        display: none;
+    }
+    
+    .plant-lover-img  {
+        width: 358px;
+        height: 350px;
+        margin-left: -60px;
+    }
+        
+    .plant-love-heading {
+        font-size: 24px;
+        font-weight: 800;
+        color: rgb(0, 0, 0);
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    .plant-description {
+        /* text-align: center; */
+        
+         margin-left: 20px;
+        font-size: 14px;
+        font-weight: 400;
+        margin-right: 15px;
+        margin-bottom: 20px;
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+
+
+
+    /* Nature description responsive */
+
+    .nature-view {
+        margin-top: 143px;
+    }
+
+    .nature-heading  {
+        font-size: 24px;
+    }
+
+    .nature-para {
+        font-size: 10px;
+        font-weight: 400;
+        margin-bottom: 47px;
+        /* margin-left: 10px;
+        margin-right: 10px; */
+    }
+
+
+
+
+
+    /* fruit section responsive */
+
+    .fruit {
+        flex-direction: column;
+        
+    }
+
+    .fruit-bloom {
+        /* position: relative; */
+        width: 100%;
+    }
+
+    
+.fruit-bloom img {
+    border-radius: 16px;
+    width: 100%;
+    margin-left: 15px;
+    /* width: 366.22px; */
+    height: 206px;
+
+
+}
+
+.fruit-ana img {
+    border-radius: 16px;
+    width: 100%;
+    height: 206px;
+    margin-left: 15px;
+}
+
+
+
+.fruit-1 img {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* background-image: url(./assets/deal-bloom.png); */
+    background-blend-mode: darken;
+}
+
+.fruit-bloom {
+    /* position: relative; */
+    
+    margin-bottom: 18px;
+    /* background-color: rgba(0, 0, 0, 0.323);  */
+    /* display: block; */
+}
+
+.fruit-bloom-text {
+    position: absolute;
+    top: 100px;
+    left: 230px;
+    
+    transform: translate(-50%, -50%);
+    /* color: white; */
+    background-color: transparent;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.fruit-bloom-text h3, .fruit-bloom-text a {
+    background-color: transparent;
+    color: white; 
+    margin: 5px 0;
+    text-decoration: none;
+    font-weight: bold;
+}
+.fruit-bloom-text h3 {
+    font-size: 16px;
+}
+.fruit-bloom-text a {
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.fruit-ana {
+     position: relative;
+     /* background-color: rgba(0, 0, 0, 0.323);  */
+}
+
+.fruit-ana-text {
+    position: absolute;
+    top: 100px;
+    left: 230px;
+    transform: translate(-50%, -50%);
+    /* color: white; */
+    background-color: transparent;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.fruit-ana-text h3, .fruit-ana-text a {
+     background-color: transparent;
+    color: white; 
+    margin: 5px 0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.fruit-ana-text h3 {
+    font-size: 16px;
+}
+.fruit-ana-text a {
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+     .fruit-2-img {
+        margin-left: 15px;
+     }
+
+
+    .fruit-2-text {
+    position: absolute;
+    top: 120px;
+    left: 230px;
+    
+    transform: translate(-50%, -50%);
+    /* color: white; */
+    background-color: transparent;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    }
+
+    .fruit-2-text h3, .fruit-2-text a{
+    background-color: transparent;
+    color: white; 
+    margin: 5px 0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.fruit-2-text h3 {
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+
+.fruit-2-text a {
+    text-decoration: underline; 
+    font-size: 15px;
+    position: relative;
+
+}
+
+
+
+
+
+
+/* footer content */
+
+.footer-content {
+    max-width: px;
+    width: 393px;
+    height: 275px;
+    /* height: 100%;
+    width: 100%; */
+    /* max-width: 1440px; */
+    /* margin: auto; */
+    margin-top: 200px;
+}
+
+.colorful-content {
+    position: relative;
+    display: block;
+    
+}
+
+.colorful-content img {
+    position: relative;
+    width: 433px;
+    height: 400px;
+    margin-left: -18px;
+    
+}
+
+.colorful-h {
+    position: absolute;
+    top: 200px;
+    left: 70px;
+    transform: translate(-50%, -50%);
+    /* color: white; */
+    background-color: transparent;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+.colorful-h h1 {
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.colorful-h h1, .colorful- {
+    background-color: transparent;
+    color: white; 
+    /* margin: 5px 0; */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.colorful-h input {
+
+   padding: 15px 30px 15px 40px;
+   /* margin-left: 100px; */
+    font-size: 12px;
+    width: 200px;
+    border: none;
+    /* border-radius: 20px; */
+    /* border: 2px solid red; */
+}
+
+.colorful-mail {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 300px;
+
+}
+    /* .colorful-input {
+        padding: 20px 20px 30px 40px;
+        width: 210px;
+        height: 50px;
+    } */
+
+.colorful-mail button {
+    /* padding: 10px 20px; */
+    padding: 2px 3px;
+    border: none;
+    background-color: rgb(233, 90, 8);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+.footer-items {
+    display: flex;
+    justify-content: start;
+    text-align: start;
+    flex-direction: column;
+    margin-left: -150px;
+}
+
+
+.footer-container {
+    margin-left: 0px;
+}
+
+
+.footer-first-content {
+
+    /* flex-wrap: wrap; */
+    margin-bottom: 20px;
+}
+
+.footer-first-content p{
+    font-size: 14px;
+}
+
+.footer-list li{
+    font-size: 13px;
+}
+
+
+
+
+}
