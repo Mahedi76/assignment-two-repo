@@ -1,0 +1,125 @@
+
+/* Note Serif Font Css */
+
+
+.noto-serif-normal {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+
+/* Inter Font Css */
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+/* Common Styles */
+
+*{
+    box-sizing: border-box;  
+    background: rgb(245, 248, 255);  
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+
+
+
+
+/* nav styles */
+
+
+
+.nav-content .nav-items li {
+    list-style: none;
+}
+
+.nav-content .nav-items li a{
+    text-decoration: none;
+    color: rgb(137, 135, 161);
+}
+
+.nav-items {
+    display: flex;
+    gap: 48px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.nav-items .span-item li a{
+    color: rgb(0, 0, 0);
+}
+
+.nav-items .home-item li a{
+    color: rgb(37, 36, 50);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+
+.first-list-item {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.second-list-item {
+    display: flex;
+}
+
+.cart-icon {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+
+
+
+
+
+/* Banner styles */
+
+
+.banner-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.banner-content .banner-head-1{
+    font-size: 65px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+
+.banner-content .banner-head-2{
+    font-size: 65px;
+    font-weight: 700;
+    color: rgb(233, 90, 8);
+}
+
+.banner-content p{
+    /* width: 100%; */
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
