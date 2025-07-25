@@ -249,3 +249,158 @@
 
 
  
+
+/* Nature view */
+
+
+
+.nature-view{
+    margin-bottom: 200px;
+}
+
+.nature-heading {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.nature-para {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 120px;
+}
+
+.nature-latest {
+    color: rgb(233, 90, 8);
+}
+
+
+.fruit {
+    display: flex;
+    gap: 20px;
+
+}
+
+
+.fruit-bloom img {
+    border-radius: 16px;
+    width: 100%;
+}
+
+.fruit-ana img {
+    border-radius: 16px;
+}
+
+
+
+.fruit-1 img {
+    background-color: rgba(0, 0, 0, 0.5);
+   
+    background-blend-mode: darken;
+}
+
+.fruit-bloom {
+    position: relative;
+    margin-bottom: 18px;
+    
+}
+
+.fruit-bloom-text {
+    position: absolute;
+    top: 100px;
+    left: 155px;
+    transform: translate(-50%, -50%);
+    /* color: white; */
+    background-color: transparent;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.fruit-bloom-text h3, .fruit-bloom-text a {
+    background-color: transparent;
+    color: white; 
+    margin: 5px 0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.fruit-ana {
+     position: relative;
+     /* background-color: rgba(0, 0, 0, 0.323);  */
+}
+
+.fruit-ana-text {
+    position: absolute;
+    top: 100px;
+    left: 155px;
+    transform: translate(-50%, -50%);
+    /* color: white; */
+    background-color: transparent;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.fruit-ana-text h3, .fruit-ana-text a {
+     background-color: transparent;
+    color: white; 
+    margin: 5px 0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+.fruit-2 img {
+    border-radius: 16px;
+     width: 100%;
+    display: block;
+    border: none;
+     
+}
+ 
+ .fruit-2 {
+    position: relative;
+    display: block;
+   
+}
+
+
+.fruit-2-text {
+    position: absolute;
+    top: 220px;
+    left: 370px;
+    transform: translate(-50%, -50%);
+    /* color: white; */
+    background-color: transparent;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  
+    
+} 
+
+
+
+.fruit-2-text h3, .fruit-2-text a{
+    background-color: transparent;
+    color: white; 
+    margin: 5px 0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.fruit-2-text h3 {
+    font-size: 35px;
+    
+}
+
+.fruit-2-text a {
+    text-decoration: underline; 
+    font-size: 30px;
+    position: relative;
+}
+
+
