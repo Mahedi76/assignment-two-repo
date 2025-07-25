@@ -201,3 +201,51 @@
 }
 
 
+
+
+/* plant-lover-section */
+
+.plant-lover-img {
+    max-width: 540px;
+    flex: 1;
+}
+
+.trusted-img {
+    background-color: transparent !important;
+    position: absolute;
+    
+    
+}
+
+.trusted-img img {
+    background-color: transparent !important;
+    position: relative;
+    max-width: 30%;
+    top: -300px;
+    left: 330px;
+}
+
+
+.plant-lover-section {
+    margin-bottom: 150px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+
+.plant-love-heading {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.plant-description {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+ 
