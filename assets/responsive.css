@@ -1,0 +1,110 @@
+@media screen and (max-width: 576px) {
+
+.container {
+    width: 100%;
+}
+
+    .nav-items {
+        flex-direction: column;
+    }
+    .banner-img {
+        width: 100%;
+    }
+    .first-list-item li {
+        display: none;
+    }
+
+    .banner-content {
+        flex-direction: column-reverse;
+        /* width: 100%; */
+        background-image: cover;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card-description {
+        text-align: center;
+    }
+
+    .card-item {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        margin-left: 20px;
+    }
+
+    .card-make .card-content-btn{
+        width: 100%;
+    }
+
+    
+
+
+    /* plant lover section responsive */
+    .plant-lover-section {
+        flex-direction: column;
+    }
+
+    .trusted-img img{
+        display: none;
+    }
+    
+
+    
+    /* fruit section responsive */
+
+    .fruit {
+        flex-direction: column;
+    }
+
+    .fruit-2-text {
+         position: absolute;
+    top: 120px;
+    left: 200px;
+    transform: translate(-50%, -50%);
+    /* color: white; */
+    background-color: transparent;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    }
+
+    .fruit-2-text h3, .fruit-2-text a{
+    background-color: transparent;
+    color: white; 
+    margin: 5px 0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.fruit-2-text h3 {
+    font-size: 25px;
+    
+}
+
+.fruit-2-text a {
+    text-decoration: underline; 
+    font-size: 30px;
+    position: relative;
+}
+
+
+
+
+  
+    /* footer container responsive */
+
+
+     .footer-items {
+        flex-direction: column;
+    }
+
+    .colorful-content {
+        max-width: 576px;
+        /* width: 100%; */
+    }
+    .colorful-content img{
+        /* width: 100%; */
+    }
+}

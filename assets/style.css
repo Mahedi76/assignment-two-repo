@@ -1,0 +1,523 @@
+
+
+/* Note Serif Font Css */
+
+
+.noto-serif-normal {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+
+/* Inter Font Css */
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+/* Common Styles */
+
+*{
+    box-sizing: border-box;  
+    background: rgb(245, 248, 255);  
+    padding: 0;
+    margin: 0;
+    
+}
+
+.container{
+    max-width: 80%;
+    margin: auto;
+    border: 2px solid tomato;
+}
+
+
+
+
+/* nav styles */
+.nav-content .nav-items li {
+    list-style: none;
+}
+
+.nav-content .nav-items li a{
+    text-decoration: none;
+    color: rgb(137, 135, 161);
+}
+
+.nav-items {
+    display: flex;
+    gap: 48px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.nav-items .span-item li a{
+    color: rgb(0, 0, 0);
+}
+
+.nav-items .home-item li a{
+    color: rgb(37, 36, 50);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.first-list-item {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.second-list-item {
+    display: flex;
+}
+
+
+.nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+
+
+/* Banner styles */
+
+.banner-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.banner-content .banner-head-1{
+    font-size: 65px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+
+.banner-content .banner-head-2{
+    font-size: 65px;
+    font-weight: 700;
+    color: rgb(233, 90, 8);
+}
+
+.banner-content p{
+    /* width: 100%; */
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* .banner-content img{
+    border: 0.5px dashed rgb(137, 135, 161);
+} */
+
+
+/* Card content styles */
+
+
+.card {
+    margin-bottom: 150px;
+}
+
+.card-description {
+    margin-bottom: 49px;
+}
+.card .card-description .card-heading{
+    text-align: center;
+}
+
+.card .card-description .card-heading .card-head-1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(233, 90, 8);
+}
+
+.card .card-description .card-heading .card-head-2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+
+.card .card-description .card-head-p {
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+
+.card-make .card-make-1 .card-content-1 {
+
+    margin-left: 70px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.card-make .card-make-1 .card-content-2 {
+
+    margin-left: 95px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.card-make .card-make-1 {
+    margin-bottom: 15px;
+}
+
+.card-make .card-content-btn {
+    width: 270px;
+    height: 50px;
+    background-color: rgb(233, 90, 8);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.card-make{
+    margin-bottom: 50px;
+    width: 100%;
+    border: 2px solid red;
+}
+
+.card-item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+
+
+/* plant-lover-section */
+
+.plant-lover-img {
+    max-width: 540px;
+    flex: 1;
+}
+
+.trusted-img {
+    background-color: transparent !important;
+    position: absolute;
+    
+    
+}
+
+.trusted-img img {
+    background-color: transparent !important;
+    position: relative;
+    max-width: 30%;
+    top: -300px;
+    left: 330px;
+}
+
+
+.plant-lover-section {
+    margin-bottom: 150px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+
+.plant-love-heading {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.plant-description {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+ 
+
+/* Nature view */
+
+
+
+.nature-view{
+    margin-bottom: 200px;
+}
+
+.nature-heading {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.nature-para {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 120px;
+}
+
+.nature-latest {
+    color: rgb(233, 90, 8);
+}
+
+
+/* Fruit Section */
+
+.fruit {
+    display: flex;
+    gap: 20px;
+
+}
+
+.fruit-bloom {
+    margin-bottom: 18px;
+    /* border: 2px solid red; */
+    
+}
+
+.fruit-bloom img {
+    border-radius: 16px;
+}
+
+.fruit-ana img {
+    border-radius: 16px;
+}
+
+
+
+.fruit-1 img {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* background-image: url(./assets/deal-bloom.png); */
+    background-blend-mode: darken;
+}
+
+.fruit-bloom {
+    position: relative;
+    /* background-color: rgba(0, 0, 0, 0.323);  */
+    /* display: block; */
+}
+
+.fruit-bloom-text {
+    position: absolute;
+    top: 100px;
+    left: 155px;
+    transform: translate(-50%, -50%);
+    /* color: white; */
+    background-color: transparent;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.fruit-bloom-text h3, .fruit-bloom-text a {
+    background-color: transparent;
+    color: white; 
+    margin: 5px 0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.fruit-ana {
+     position: relative;
+     /* background-color: rgba(0, 0, 0, 0.323);  */
+}
+
+.fruit-ana-text {
+    position: absolute;
+    top: 100px;
+    left: 155px;
+    transform: translate(-50%, -50%);
+    /* color: white; */
+    background-color: transparent;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.fruit-ana-text h3, .fruit-ana-text a {
+     background-color: transparent;
+    color: white; 
+    margin: 5px 0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+.fruit-2 img {
+    border-radius: 16px;
+     width: 100%;
+    display: block;
+    border: none;
+     
+}
+ 
+ .fruit-2 {
+    position: relative;
+    display: block;
+   
+}
+
+
+.fruit-2-text {
+    position: absolute;
+    top: 220px;
+    left: 370px;
+    transform: translate(-50%, -50%);
+    /* color: white; */
+    background-color: transparent;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    z-index: 2;
+    
+} 
+
+
+
+.fruit-2-text h3, .fruit-2-text a{
+    background-color: transparent;
+    color: white; 
+    margin: 5px 0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.fruit-2-text h3 {
+    font-size: 35px;
+    
+}
+
+.fruit-2-text a {
+    text-decoration: underline; 
+    font-size: 30px;
+    position: relative;
+}
+
+
+
+
+
+/* footer content */
+
+.footer-content {
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.colorful-content {
+    position: relative;
+    display: block;
+}
+
+.colorful-h {
+    position: absolute;
+    top: 280px;
+    left: 700px;
+    transform: translate(-50%, -50%);
+    /* color: white; */
+    background-color: transparent;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+.colorful-h h1, .colorful- {
+    background-color: transparent;
+    color: white; 
+    /* margin: 5px 0; */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.colorful-h input {
+
+   padding: 20px 50px;
+    font-size: 12;
+    width: 690px;
+    border: none;
+    /* border-radius: 20px; */
+}
+
+.colorful-mail {
+    display: flex;
+    margin-top: 23px;
+
+}
+ .colorful-input {
+    /* border: 2px solid red; */
+    /* padding: 2px 50px; */
+}
+
+.colorful-mail button {
+    padding: 20px 70px;
+    border: none;
+    background-color: rgb(233, 90, 8);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footer-container {
+    padding: 50px 160px;
+}
+
+
+.footer-items {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.footer-flower-img img {
+    margin-bottom: 16px;
+    width: 150px;
+    height: 82px;
+
+}
+
+.footer-first-content p{
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.footer-list li {
+    list-style: none;
+    margin-bottom: 25px;
+    color: rgb(107, 114, 128);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.footer-icon-img {
+    /* position: relative; */
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    /* justify-content: start; */
+    justify-content: flex-end;
+/* align-items: center; */
+    /* align-items: center; */
+   
+
+}
+
+.footer-icon-img .footer-twitter {
+    position: relative;
+    top: 10px;
+}
+
+
+
