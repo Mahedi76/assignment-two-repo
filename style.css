@@ -123,3 +123,81 @@
 }
 
 
+
+
+/* Card content styles */
+
+
+.card {
+    margin-bottom: 150px;
+}
+
+.card-description {
+    margin-bottom: 49px;
+}
+
+
+.card .card-description .card-heading{
+    text-align: center;
+}
+
+.card .card-description .card-heading .card-head-1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(233, 90, 8);
+}
+
+.card .card-description .card-heading .card-head-2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+
+.card .card-description .card-head-p {
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+
+.card-make .card-make-1 .card-content-1 {
+
+    margin-left: 70px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.card-make .card-make-1 .card-content-2 {
+
+    margin-left: 95px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.card-make .card-make-1 {
+    margin-bottom: 15px;
+}
+
+.card-make .card-content-btn {
+    width: 270px;
+    height: 50px;
+    background-color: rgb(233, 90, 8);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.card-make{
+    margin-bottom: 50px;
+}
+
+
+.card-item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
